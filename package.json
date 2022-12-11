@@ -1,0 +1,23 @@
+{
+  "name": "mishmish.dev",
+  "version": "0.1.0",
+  "description": "Mishmish's personal website",
+  "main": "index.js",
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --dryrun --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mishmish-dev/mishmish.dev.git"
+  },
+  "author": "Mishmish",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/mishmish-dev/mishmish.dev/issues"
+  },
+  "homepage": "https://github.com/mishmish-dev/mishmish.dev#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.2"
+  }
+}
