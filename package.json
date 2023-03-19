@@ -4,8 +4,8 @@
   "description": "Mishmish's personal website",
   "main": "index.js",
   "scripts": {
-    "build": "eleventy",
-    "start": "eleventy --dryrun --serve"
+    "build": "eleventy --input=./src",
+    "serve": "eleventy --input=./src --serve --watch"
   },
   "repository": {
     "type": "git",
